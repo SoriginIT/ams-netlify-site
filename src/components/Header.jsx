@@ -24,15 +24,8 @@ const Header = () => {
     <header className="header">
       <div className="container header-container">
         <div className="logo">
-           {/* Using text or placeholder image if logo asset not available yet. 
-               The original uses an img tag. I will use text for now to be safe. 
-           */}
            <Link to="/">
-             {/* Actual logo logic would go here. Using a placeholder style based on original code */}
-             <div className="logo-placeholder">
-               {/* <img src="/logo.png" alt="Sorigin" /> */}
-               <span style={{color: 'var(--primary-teal)', fontWeight: '900', fontSize: '1.5rem'}}>AMS</span>
-             </div>
+             <img src="https://cdn.convrrt.com/apps/freshworks/31973958/1be417d0-7be0-4354-9958-86f1303b93b9.png" alt="Sorigin Logo" className="logo-img" />
            </Link>
         </div>
 
@@ -51,9 +44,6 @@ const Header = () => {
               {link.name}
             </Link>
           ))}
-          <Button to="/login" variant="primary" className="header-login-btn">
-            Login
-          </Button>
         </nav>
       </div>
     </header>

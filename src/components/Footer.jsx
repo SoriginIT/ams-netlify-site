@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-main">
         <div className="footer-col footer-logo-block">
-          {/* Logo Placeholder */}
+          {/* Logo */}
           <div className="footer-logo">
-             <span style={{fontSize: '2rem', fontWeight: '900', color: 'white'}}>AMS</span>
+             <img src="https://cdn.convrrt.com/apps/freshworks/31973958/1be417d0-7be0-4354-9958-86f1303b93b9.png" alt="Sorigin Logo" style={{height: '48px'}} />
           </div>
           <div className="footer-socials">
             <a href="#"><Facebook size={20} /></a>

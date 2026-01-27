@@ -69,14 +69,12 @@ const Home = () => {
         </div>
       </section>
       
-      {/* Map Section Placeholder */}
+      {/* Map Section */}
       <section className="section map-section">
         <div className="container map-content">
-           <h2 className="map-title" style={{color: 'white'}}>Pan India Presence</h2>
            <div className="map-visual">
-             {/* Abstract Map Representation */}
-             <div className="map-placeholder">
-               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bv/Map_of_India_blank_border.png/640px-Map_of_India_blank_border.png" alt="India Map" style={{opacity: 0.2, maxWidth: '100%', height: 'auto'}}/>
+             <div className="india-map">
+               <img src="https://cdn.convrrt.com/apps/freshworks/31973958/1571f709-4f64-4ec6-bc66-f969bb4165fe.png" alt="India Map with Presence" style={{maxWidth: '100%', height: 'auto'}}/>
              </div>
            </div>
         </div>

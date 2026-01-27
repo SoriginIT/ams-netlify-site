@@ -4,30 +4,32 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  padding: 1rem 0;
-  background: transparent; /* Assuming hero background covers it, else needs logic */
-}
-
-/* If the header needs a background on scroll, we can add a class */
-.header.scrolled {
-  background: var(--white);
-  position: fixed;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 0; /* Updated to match original padding logic if needed, original nav had padding */
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
-.logo-placeholder {
-  background: var(--white);
+.logo {
+  z-index: 101;
+  background-color: #fff;
   padding: 5px 15px;
-  border-radius: 0 0 18px 18px;
+  border-radius: 0px 0px 18px 18px;
+  height: 60px; /* Adjust as needed */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.logo-img {
+  height: 48px; /* Based on typical logo height */
+  width: auto;
 }
 
 .nav-links {
@@ -41,7 +43,7 @@
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
-  color: var(--white); /* Default white for hero overlay */
+  color: var(--white);
   transition: color 0.3s;
 }
 
@@ -55,6 +57,7 @@
   border: none;
   color: var(--white);
   cursor: pointer;
+  z-index: 102; /* Ensure above overlay */
 }
 
 @media (max-width: 768px) {
@@ -74,6 +77,7 @@
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
     transform: translateX(100%);
     transition: transform 0.3s ease;
+    z-index: 100;
   }
 
   .nav-links.active {
