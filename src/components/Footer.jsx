@@ -53,7 +53,7 @@ const Footer = () => {
              </div>
              <div className="contact-row">
                <MapPin size={16} />
-               <span>123 Energy St, Solar City, India</span>
+               <span>AP-81, 1702, 17th Floor, Mundhwa, Pune-411036, Maharashtra, India , Pune City, Maharashtra, India - 411036.</span>
              </div>
           </div>
         </div>

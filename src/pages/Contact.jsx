@@ -42,7 +42,7 @@ const Contact = () => {
                   <MapPin className="info-icon" />
                   <div>
                     <label>Address</label>
-                    <p>123 Energy St, Solar City, India</p>
+                    <p>AP-81, 1702, 17th Floor, Mundhwa, Pune-411036, Maharashtra, India , Pune City, Maharashtra, India - 411036.</p>
                   </div>
                 </div>
               </div>
