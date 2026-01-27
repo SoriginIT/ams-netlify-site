@@ -49,7 +49,7 @@ const Footer = () => {
              </div>
              <div className="contact-row">
                <Mail size={16} />
-               <span>info@sorigin.co</span>
+               <span>hello@sorigin.co</span>
              </div>
              <div className="contact-row">
                <MapPin size={16} />
